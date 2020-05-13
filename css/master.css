@@ -18,7 +18,7 @@ header{
 }
 
 .centratura{
-  padding: 0 5%;
+  padding: 0 10%;
 }
 
 header::after{
@@ -72,28 +72,84 @@ p{
   text-align: center;
   padding-top: 15px;
 }
+
+
 /* sezione percorso formativo */
-.percorso::after{
+.base::after{
   content: "";
   display: table;
   clear: both;
 }
+
+
 .percorso{
   background-color: white;
+  padding: 0% 10%;
 }
+
+h4{
+  color: green;
+  text-align: center;
+  padding-top: 54%;
+  margin: 72px
+}
+
 #livello{
-  width: 50%;
-  height: 20%
+  width: 30%;
+
 }
 #pc{
-  width: 118%;
-  height: 20%
+  width: 50%;
+
 }
 #lavagna{
-  width: 68%;
-  height: 20%
+  width: 35%;
+
 }
 .posizionatore{
   float: left;
-  padding: 5% 5%;
+
+}
+/* sezione scelta piano */
+.pianifica{
+  background-color: white;
+}
+.distanziatore{
+  margin: 2% 10%;
+}
+.pianifica::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#scalata{
+  width: 40%;
+  height: 20%;
+  float: left;
+}
+.pianopersonalizzato{
+  float: right;
+}
+/* centratura immagini sezione percorso formativo */
+.posizionatore{
+  position: relative;
+  width:33%
+}
+#livello, #pc{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#lavagna{
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+/* sezione struttura un piano */
+
+h5{
+  font-size: 20px
 }
