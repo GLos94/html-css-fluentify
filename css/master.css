@@ -1,0 +1,99 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  font-family: "Maven Pro", sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 400px;
+  background-color: #133962;
+  background-image: url("../img/fluentify-jumbo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centratura{
+  padding: 0 5%;
+}
+
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#logo{
+  float: left;
+}
+
+ul{
+  float: left;
+  padding: 1% 4%;
+}
+
+li{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  padding-right: 10px;
+  line-height: 25px;
+  font-size: 10px;
+}
+li:hover{
+  color: blue;
+}
+
+h2{
+  position: absolute;
+  padding: 13% 0;
+  color: white;
+  font-size: 36px
+}
+main{
+  height: 500px;
+  background-color: yellow;
+}
+/* sezione scuola lingue */
+.barragrigia{
+  height: 110px;
+  background-color: lightgrey
+
+}
+h3{
+  text-align: center;
+  padding-top: 25px;
+}
+p{
+  text-align: center;
+  padding-top: 15px;
+}
+/* sezione percorso formativo */
+.percorso::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.percorso{
+  background-color: white;
+}
+#livello{
+  width: 50%;
+  height: 20%
+}
+#pc{
+  width: 118%;
+  height: 20%
+}
+#lavagna{
+  width: 68%;
+  height: 20%
+}
+.posizionatore{
+  float: left;
+  padding: 5% 5%;
+}
