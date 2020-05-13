@@ -44,16 +44,28 @@ li{
   line-height: 25px;
   font-size: 10px;
 }
+
 li:hover{
   color: blue;
 }
 
 h2{
-  position: absolute;
+  position: relative;
   padding: 13% 0;
   color: white;
   font-size: 36px
 }
+
+button{
+  background-color: green;
+  color: white;
+  padding: 1% 1%;
+}
+
+#bottonestruttura{
+  position: relative;
+}
+
 main{
   height: 500px;
   background-color: yellow;
@@ -81,7 +93,6 @@ p{
   clear: both;
 }
 
-
 .percorso{
   background-color: white;
   padding: 0% 10%;
@@ -96,27 +107,30 @@ h4{
 
 #livello{
   width: 30%;
-
 }
+
 #pc{
   width: 50%;
-
 }
+
 #lavagna{
   width: 35%;
-
 }
+
 .posizionatore{
   float: left;
-
 }
+
 /* sezione scelta piano */
 .pianifica{
   background-color: white;
 }
+
 .distanziatore{
   margin: 2% 10%;
+  float: left;
 }
+
 .pianifica::after{
   content: "";
   display: table;
@@ -124,13 +138,16 @@ h4{
 }
 
 #scalata{
-  width: 40%;
+  width: 223%;
   height: 20%;
   float: left;
 }
+
 .pianopersonalizzato{
   float: right;
+  padding-right: 1%
 }
+
 /* centratura immagini sezione percorso formativo */
 .posizionatore{
   position: relative;
@@ -148,8 +165,15 @@ h4{
   left: 42%;
   transform: translate(-50%, -50%);
 }
+
 /* sezione struttura un piano */
 
 h5{
-  font-size: 20px
+  font-size: 20px;
+  padding: 3% 0;
+}
+
+h6{
+  font-size: 20px;
+  padding: 3% 5%;
 }
